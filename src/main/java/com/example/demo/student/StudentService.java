@@ -22,11 +22,6 @@ public class StudentService {
 
     public List<Student> getStudents(){
         return studentRepository.findAll();
-        /*return List.of(new Student(1L,
-                "Mani Murugan",
-                "mvmanikan@gmail.com",
-                LocalDate.of(1982, Month.FEBRUARY,15),
-                39));*/
     }
 
     public void addNewStudent(Student student){
